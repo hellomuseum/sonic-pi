@@ -341,6 +341,7 @@ module SonicPi
                     "-R", "0",
                     "-l", "1",
                     "-i", num_inputs,
+                    "-H", "ASIO4ALL",
                     "-o", "16",
                     "-U", "#{native_path}/supercollider/plugins/",
                     "-b", num_buffers_for_current_os.to_s,
